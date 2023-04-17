@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="liste_chaine_objet" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/liste_chaine_objet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/liste_chaine_objet" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../../../../../../Program Files/SDL2-2.26.5/i686-w64-mingw32/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lmingw32 -lSDL2main -lSDL2" />
+			<Add directory="C:/Program Files/SDL2-2.26.5/i686-w64-mingw32/lib" />
+		</Linker>
+		<Unit filename="liste.cpp" />
+		<Unit filename="liste.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="objet.cpp" />
+		<Unit filename="objet.h" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
